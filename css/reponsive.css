@@ -1,0 +1,152 @@
+@media only screen and (max-width: 600px) {
+    .center {
+        width: 100%;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body {
+        position: relative;
+    }
+
+    .menu {
+        height: 60px;
+    }
+
+    .menu .center {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu img {
+        height: 40px;
+    }
+
+    .menu ul li::after {
+        display: none;
+    }
+
+    .menu ul{
+        padding-top: 50px;
+        padding-left: 40px;
+        width: 50%;
+        height: 100vh;
+        background-color: #fff;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+
+    .menu ul li {
+        display: block;
+    }
+
+    .menu ul li:hover::after {
+        opacity: 0;
+    }
+
+    #btn-menu {
+        display: block;
+        font-size: 27px;
+    }
+
+    .page1 {
+        padding-bottom: 50px;
+    }
+
+    .page1 .center {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .page1 .boxright img {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .page1 .boxright, .page1 .boxleft {
+        width: 100%;
+    }
+
+    .page1 .boxleft span {
+        font-size: 14px;
+    }
+
+    .page1 .boxleft h1 {
+        font-size: 45px;
+    }
+
+    .page1 .boxleft h3 {
+        font-size: 20px;
+    }
+
+    .page1 .info {
+        font-size: 14px;
+    }
+
+    .page3 {
+        padding: 40px 0;
+    }
+
+    .page3 h2 {
+        margin-bottom: 30px;
+    }
+
+    .page3 .box {
+        width: 100%;
+        height: unset;
+        padding: 30px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .page4 h2 {
+        margin-bottom: 25px;
+    }
+
+    .page4 .boxleft{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cta {
+        padding: 40px 80px;
+    }
+
+    .cta p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .sanpham {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sanpham .card {
+        width: 90%;
+        max-height: 175px;
+    }
+
+    .form, .map {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer ul li {
+        margin-bottom: 20px;
+    }
+
+    ul.social li {
+        margin: 20px 10px !important;
+    }
+}

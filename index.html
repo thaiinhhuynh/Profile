@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phúc Bình - Xây dựng trang web</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/reponsive.css">
+    <script src="js.js"></script>
+</head>
+<body onload="jobne(), show(spall)">
+    <div id="ctt" onclick="totop()"><i class="fas fa-angle-up"></i></div>
+    <div class="menu row2">
+        <div class="center">
+            <a href="https://phucbinh.me/"><img src="images/logo.svg" alt=""></a> 
+            <ul id="smenu">
+                <div id="close" onclick="hidemenu()"><i class="fa fa-times" aria-hidden="true"></i></div>
+                <li class="active"><a href="#" >Trang chủ</a></li>
+                <li><a href="#congviec">Công việc</a></li>
+                <li><a href="#kinang">Kĩ năng</a></li>
+                <li><a href="#sp">Sản phẩm</a></li>
+                <li><a href="#lienhe">Liên hệ</a></li>
+            </ul>
+            <div id="btn-menu" onclick="showmenu()"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        </div>
+    </div>
+    <div class="row page1">
+        <div class="center">
+            <div class="boxleft">
+                <span>Xin chào! Tôi là</span>
+                <h1>Phúc Bình</h1>
+                <h3 id="jobs">Front-end Developer</h3>
+                <div class="info">
+                    <p><i class="fa fa-envelope"></i> binhtlpps13531@fpt.edu.vn</p>
+                    <p><i class="fas fa-phone-alt"></i> +84 3737 82285</p>
+                    <p><i class="fa fa-map-marker"></i> 98 Tân Chánh Hiệp 35, Quận 12, TP.HCM</p>
+                </div>
+            </div>
+            <div class="boxright">
+                <img src="images/avatar.JPG" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="page3 row" id="congviec">
+        <div class="center">
+            <h2>Công việc của tôi</h2>
+            <div class="box">
+                <img src="images/edit-alt.svg" alt="">
+                <h3>UI Design</h3>
+                <p>Giao diện của một trang web ảnh hưởng rất lớn đến quyết định của người dùng. Đó là lí do các trang web ngày càng chú trọng hơn đến phần giao diện.</p>
+            </div>
+            <div class="box">
+                <img src="images/database.svg" alt="">
+                <h3>Web Development</h3>
+                <p>Sứ mệnh của chúng tôi là tạo ra những trang web có giao diện thân thiện, hiệu năng vượt trội và trải nghiệm người dùng tuyệt vời.</p>
+            </div>
+            <div class="box">
+                <img src="images/apps.svg" alt="">
+                <h3>App Development</h3>
+                <p>Chúng tôi cam kết tạo ra những ứng dụng có dung lượng nhẹ, hiệu năng ổn định, phục vụ thật tốt cho nhu cầu sử dụng của người dùng.</p>
+            </div>
+         </div>
+    </div>
+    <div class="page4 row" id="kinang">
+        <div class="center">
+            <h2>Kĩ năng</h2>
+            <div class="boxleft">
+                <div class="js">
+                    <p>JavaScript <span>60%</span></p>
+                    <div class="thanhpt"></div>
+                </div>
+                <div class="java">
+                    <p>Java <span>50%</span></p>
+                    <div class="thanhpt"></div>
+                </div>
+                <div class="html">
+                    <p>HTML <span>80%</span></p>
+                    <div class="thanhpt"></div>
+                </div>
+                <div class="css">
+                    <p>CSS <span>70%</span></p>
+                    <div class="thanhpt"></div>
+                </div>
+            </div>
+            <div class="boxleft">
+                <div class="c">
+                    <p>C <span>50%</span></p>
+                    <div class="thanhpt"></div>
+                </div>
+                <div class="lvn">
+                    <p>Làm việc nhóm <span>70%</span></p>
+                    <div class="thanhpt"></div>
+                </div>
+                <div class="st">
+                    <p>Sáng tạo <span>80%</span></p>
+                    <div class="thanhpt"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cta row">
+        <div class="center">
+            <div class="div">
+                <p><b>Hợp tác</b> cùng tôi ?</p>
+            </div>
+            
+            <a class="btn" href="#lienhe">Liên hệ</a>
+        </div>
+    </div>
+    <div class="page5 row" id="sp">
+        <div class="center">
+            <h2>Sản phẩm</h2>
+            <div class="catalog">
+                <span onclick="show(spall)">Tất cả</span>
+                <span onclick="show(spweb)">Website</span>
+                <span onclick="show(sppts)">Photoshop</span>
+            </div>
+            <div class="sanpham" id="sanpham">
+                <img src="" class="card">
+            </div>
+        </div>
+    </div>
+    <div class="row2 contact" id="lienhe">
+        <h2>Liên hệ</h2>
+        <div class="center">
+            <div class="form">
+                <input type="text" placeholder="Họ và tên" id="name"><br>
+                <input type="email" placeholder="Địa chỉ email" id="mail"><br>
+                <textarea placeholder="Để lại lời nhắn" id="mess"></textarea><br>
+                <input type="submit" value="Gửi lời nhắn" id="submit">
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4659.746614382251!2d106.61944305055378!3d10.859877506244457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752a18ece60f53%3A0x94688acad2eed2f9!2zOTggVMOibiBDaMOhbmggSGnhu4dwIDM1LCBUw6JuIENow6FuaCBIaeG7h3AsIFF14bqtbiAxMiwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1587568105444!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="footer row2">
+        <a href="https://phucbinh.me/"><img src="images/logo.svg" alt=""></a> 
+        <ul>
+            <li class="active"><a href="#" >TRANG CHỦ</a></li>
+            <li><a href="#congviec">CÔNG VIỆC</a></li>
+            <li><a href="#kinang">KĨ NĂNG</a></li>
+            <li><a href="#sp">SẢN PHẨM</a></li>
+            <li><a href="#lienhe">LIÊN HỆ</a></li>
+        </ul>
+        <ul class="social">
+            <li><a href="tel:0373782285"><i class="fas fa-phone-alt"></i></a></li>
+            <li><a href="mailto:phucbinh.2001@fmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://www.facebook.com/Phucbinh.2001/"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+        <p>Copyright ©2020 All rights reserved | Made with <i class="fas fa-heart"></i> by <span>Phucbinh</span></p>
+    </div>
+</body>
+</html>
