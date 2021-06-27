@@ -1,7 +1,0 @@
-projects = [
-  {
-    name: "",
-    link: "",
-    img: "",
-  },
-];
