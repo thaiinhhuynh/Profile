@@ -1,38 +1,36 @@
-[
-  {
-    "website": [
-      {
-        "id": 1,
-        "name": "Facebook login",
-        "link": "facebook.phucbinh.me",
-        "img": "facebook.png"
-      },
-      {
-        "id": 2,
-        "name": "Logistico Landing Page",
-        "link": "logistico.phucbinh.me",
-        "img": "logistico.png"
-      },
-      {
-        "id": 3,
-        "name": "Zing MP3",
-        "link": "zingmp3.phucbinh.me",
-        "img": ""
-      }
-    ],
-    "photoshop": [
-      {
-        "id": 1,
-        "name": "Ảnh cưới",
-        "link": "anhcuoi.png",
-        "img": "anhcuoi.png"
-      },
-      {
-        "id": 2,
-        "name": "Menu đồ uống",
-        "link": "menu.png",
-        "img": "menu.png"
-      }
-    ]
-  }
-]
+{
+  "website": [
+    {
+      "id": 1,
+      "name": "Facebook login",
+      "link": "facebook.phucbinh.me",
+      "img": "facebook.png"
+    },
+    {
+      "id": 2,
+      "name": "Logistico Landing Page",
+      "link": "logistico.phucbinh.me",
+      "img": "logistico.png"
+    },
+    {
+      "id": 3,
+      "name": "Zing MP3",
+      "link": "zingmp3.phucbinh.me",
+      "img": ""
+    }
+  ],
+  "photoshop": [
+    {
+      "id": 1,
+      "name": "Ảnh cưới",
+      "link": "anhcuoi.png",
+      "img": "anhcuoi.png"
+    },
+    {
+      "id": 2,
+      "name": "Menu đồ uống",
+      "link": "menu.png",
+      "img": "menu.png"
+    }
+  ]
+}
