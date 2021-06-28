@@ -1,7 +1,5 @@
 {
   "project": [
-    {
-      "website": [
         {
           "id": 1,
           "name": "Facebook login",
@@ -38,6 +36,4 @@
           "category": "photoshop"
         }
       ]
-    }
-  ]
 }
