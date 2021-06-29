@@ -1,13 +1,13 @@
 //Mảng sản phẩm
 var sppts = [
-    ["5.png", "https://phucbinh.me/demo/5.png"],
-    ["6.png", "https://phucbinh.me/demo/6.png"]
+    ["anhcuoi.png", "./images/anhcuoi.png"],
+    ["menu.png", "./images/menu.png"]
 ];
 var spweb = [
-    ["1.png", "https://phucbinh.me/demo/blog/"],
-    ["2.png", "https://phucbinh.me/demo/Decors/"],
-    ["3.png", "https://phucbinh.me/demo/Facebook/"],
-    ["4.png", "https://phucbinh.me/demo/COCO/"],
+    ["logistico.png", "https://phucbinh2001.github.io/logistico/"],
+    ["tinhocngoisao.jpeg", "https://phucbinh2001.github.io/tinhocngoisao/"],
+    ["facebook.png", "https://phucbinh2001.github.io/facebook-login/"],
+    ["coco.png", "https://phucbinh2001.github.io/coco/"],
 ];
 var spall = new Array();
 spall = sppts.concat(spweb);
@@ -16,7 +16,7 @@ spall = sppts.concat(spweb);
 function show(index) {
     var kq = "";
     for (let i = 0; i < index.length; i++) {
-        kq+="<div class = 'card'><a href='"+index[i][1]+"'>"
+        kq+="<div class = 'card'><a target='_blank' href='"+index[i][1]+"'>"
         + "<img src=images/" + index[i][0]+"></div></a>";
     }
     document.getElementById('sanpham').innerHTML = kq;
@@ -24,7 +24,7 @@ function show(index) {
 
 //Check form
 $(document).ready(function () {
-    $("#submit").click(function (e) { 
+    $("#submit").click(function (e) {
         alert('Phiền bạn vui lòng liên hệ qua Facebook, email hoặc số điện thoại. Xin cảm ơn!')
     });
 });
@@ -35,7 +35,7 @@ $(document).ready(function () {
 function totop() {
     document.documentElement.scrollTop = 0;
 }
-        
+
 
 
 //Hiện job
