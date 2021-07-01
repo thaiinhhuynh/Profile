@@ -6,7 +6,6 @@ var sppts = [
 var spweb = [
     ["logistico.png", "https://phucbinh2001.github.io/logistico/"],
     ["tinhocngoisao.jpeg", "https://phucbinh2001.github.io/tinhocngoisao/"],
-    ["facebook.png", "https://phucbinh2001.github.io/facebook-login/"],
     ["coco.png", "https://phucbinh2001.github.io/coco/"],
 ];
 var spall = new Array();
