@@ -1,13 +1,6 @@
 {
   "project": [
         {
-          "id": 1,
-          "name": "Facebook login",
-          "link": "facebook.phucbinh.me",
-          "img": "facebook.png",
-          "category": "website"
-        },
-        {
           "id": 2,
           "name": "Logistico Landing Page",
           "link": "logistico.phucbinh.me",
