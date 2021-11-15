@@ -1,13 +1,13 @@
 //Mảng sản phẩm
 var sppts = [
-  ["anhcuoi.png", "./images/anhcuoi.png"],
-  ["menu.png", "./images/menu.png"],
+  ["anhcuoi.png", "..."],
+  ["menu.png", "..."],
 ];
 var spweb = [
-  ["tinhocngoisao.jpeg", "https://phucbinh2001.github.io/tinhocngoisao/"],
-  ["bstore.jpg", "https://phucbinh2001.github.io/Bstore/"],
-  ["logistico.png", "https://phucbinh2001.github.io/logistico/"],
-  ["coco.png", "https://phucbinh2001.github.io/coco/"],
+  ["...", "link"],
+  ["...", "//"],
+  ["...", //"],
+  ["...", "//"],
 ];
 var spall = new Array();
 spall = spweb.concat(sppts);
