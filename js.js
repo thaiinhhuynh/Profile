@@ -43,10 +43,10 @@ function totop() {
 
 //Hiện job
 var job = [
-  "Front-end Developer",
-  "UI Designer",
+  "Học Sinh",
+  "Sinh Viên",
   "Web Developer",
-  "App Developer",
+  
 ];
 var i = 1;
 function jobne() {
